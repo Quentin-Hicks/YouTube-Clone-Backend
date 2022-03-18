@@ -40,13 +40,9 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'cars.apps.CarsConfig',  # This app is for example use only
     'drf_jwt_backend',
-<<<<<<< HEAD
-    'comment',
-    'reply'
-=======
     'reply',
     'comment',
->>>>>>> 67cbade0de7f8db68e4643d5482512ae93667c74
+
 
 ]
 
