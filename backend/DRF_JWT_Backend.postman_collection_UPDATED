@@ -336,7 +336,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 2,\r\n    \"video_id\": \"2\",\r\n    \"text\": \"This comment should work too, the text, likes, and dislikes were changed\",\r\n    \"user_id\": 4,\r\n    \"likes\": 5,\r\n    \"dislikes\": 7\r\n}",
+							"raw": "{\r\n    \"video_id\": \"2\",\r\n    \"text\": \"Cookies are ready\",\r\n    \"user_id\": 4,\r\n    \"likes\": 555,\r\n    \"dislikes\": 555\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -344,7 +344,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/comments/2/",
+							"raw": "http://127.0.0.1:8000/api/comments/1/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -356,7 +356,7 @@
 							"path": [
 								"api",
 								"comments",
-								"2",
+								"1",
 								""
 							]
 						}
