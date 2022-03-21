@@ -1,5 +1,5 @@
 from django.urls import path, include
-from comments import views
+from comment import views
 
 urlpatterns = [
     path('all/', views.comments_list),
